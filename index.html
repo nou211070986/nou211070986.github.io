@@ -3,60 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joseph | Remote Technical Specialist</title>
+    <title>Joseph | Technical Specialist Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .bento-card { @apply bg-gray-800/50 border border-gray-700 rounded-3xl p-6 hover:border-blue-500 transition-all duration-300; }
+    </style>
 </head>
-<body class="bg-gray-900 text-gray-100 font-sans leading-normal tracking-normal">
+<body class="bg-[#0b0f1a] text-gray-200 font-sans p-4 md:p-8">
 
-    <header class="h-screen flex flex-col justify-center items-center text-center px-4 bg-gradient-to-b from-gray-800 to-gray-900">
-        <h1 class="text-5xl md:text-7xl font-bold text-blue-400 mb-4">Joseph</h1>
-        <p class="text-xl md:text-2xl text-gray-400 max-w-2xl">Remote Technical Specialist | CS Student at NOUN | OND Computer Science (2015)</p>
-        <div class="mt-8">
-            <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition duration-300">Hire Me</a>
-        </div>
-    </header>
-
-    <section class="py-20 px-6 max-w-4xl mx-auto">
-        <h2 class="text-3xl font-bold border-b-2 border-blue-500 pb-2 mb-10">Professional Background</h2>
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-4">
         
-        <div class="mb-10">
-            <h3 class="text-xl font-bold text-blue-300">Freelance Technical Consultant</h3>
-            <p class="text-sm text-gray-500 mb-2">2015 — Present</p>
-            <ul class="list-disc list-inside text-gray-400 space-y-2">
-                <li>Managed end-to-end systems support for local business operations.</li>
-                <li>Provided hardware and software troubleshooting for diverse client needs.</li>
-                <li>Optimized local database systems to improve data retrieval speeds.</li>
-            </ul>
-        </div>
-
-        <div class="mb-10">
-            <h3 class="text-xl font-bold text-blue-300">B.Sc. Computer Science (In Progress)</h3>
-            <p class="text-sm text-gray-500 mb-2">National Open University of Nigeria (NOUN)</p>
-            <p class="text-gray-400 italic">Focusing on remote-first technical operations and advanced systems analysis.</p>
-        </div>
-    </section>
-
-    <section class="bg-gray-800 py-20 px-6">
-        <div class="max-w-4xl mx-auto text-center">
-            <h2 class="text-3xl font-bold mb-10">Technical Toolkit</h2>
-            <div class="flex flex-wrap justify-center gap-4">
-                <span class="bg-gray-700 px-6 py-2 rounded-full border border-blue-500">Technical Support</span>
-                <span class="bg-gray-700 px-6 py-2 rounded-full border border-blue-500">QA Testing</span>
-                <span class="bg-gray-700 px-6 py-2 rounded-full border border-blue-500">SQL</span>
-                <span class="bg-gray-700 px-6 py-2 rounded-full border border-blue-500">Python</span>
-                <span class="bg-gray-700 px-6 py-2 rounded-full border border-blue-500">Remote Collaboration</span>
+        <div class="md:col-span-2 md:row-span-2 bg-gradient-to-br from-blue-600 to-indigo-700 rounded-3xl p-8 flex flex-col justify-between">
+            <div>
+                <h1 class="text-4xl md:text-5xl font-extrabold text-white">Joseph</h1>
+                <p class="text-blue-100 mt-4 text-lg">Remote Technical Specialist & Systems Support Consultant.</p>
+            </div>
+            <div class="mt-8">
+                <p class="text-sm uppercase tracking-widest text-blue-200 font-semibold">Current Mission</p>
+                <p class="text-white">Pursuing B.Sc. Computer Science at National Open University of Nigeria (NOUN).</p>
             </div>
         </div>
-    </section>
 
-    <footer id="contact" class="py-20 text-center bg-gray-900 border-t border-gray-800">
-        <h2 class="text-3xl font-bold mb-6">Let's Connect</h2>
-        <p class="text-gray-400 mb-8">Ready to bring my expertise to your global team.</p>
-        <div class="flex justify-center space-x-6">
-            <a href="https://linkedin.com" target="_blank" class="text-blue-400 hover:text-blue-300 font-bold">LinkedIn</a>
-            <a href="mailto:your-email@example.com" class="text-blue-400 hover:text-blue-300 font-bold">Email Me</a>
+        <div class="md:col-span-2 bento-card">
+            <h2 class="text-blue-400 font-bold mb-2 uppercase text-xs tracking-widest">Experience</h2>
+            <p class="text-xl font-bold italic">Freelance Technical Consultant</p>
+            <p class="text-gray-400 text-sm mb-4">2015 — Present</p>
+            <p class="text-sm">Solving hardware/software bottlenecks for small businesses and optimizing local digital infrastructure.</p>
         </div>
-        <p class="mt-12 text-gray-600 text-sm">© 2026 Joseph - Powered by NOUN CS foundations.</p>
+
+        <div class="md:col-span-2 bento-card">
+            <h2 class="text-blue-400 font-bold mb-4 uppercase text-xs tracking-widest">Technical Toolkit</h2>
+            <div class="flex flex-wrap gap-2">
+                <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+                <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL">
+                <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
+                <img src="https://img.shields.io/badge/QA_Testing-0052CC?style=for-the-badge&logo=jira&logoColor=white" alt="QA">
+                <img src="https://img.shields.io/badge/Remote_Support-0088CC?style=for-the-badge&logo=telegram&logoColor=white" alt="Remote">
+            </div>
+        </div>
+
+        <div class="md:col-span-1 bento-card flex flex-col justify-center text-center">
+            <h2 class="text-blue-400 font-bold mb-2 uppercase text-xs tracking-widest">Education</h2>
+            <p class="font-bold">OND Comp. Sci</p>
+            <p class="text-gray-500 text-xs">Auchi Poly (2015)</p>
+            <div class="my-2 border-t border-gray-700 w-1/2 mx-auto"></div>
+            <p class="font-bold">B.Sc. Comp. Sci</p>
+            <p class="text-gray-500 text-xs">NOUN (In Progress)</p>
+        </div>
+
+        <div class="md:col-span-2 bento-card border-blue-900">
+            <h2 class="text-blue-400 font-bold mb-2 uppercase text-xs tracking-widest">Featured Case Study</h2>
+            <h3 class="text-lg font-bold">System Health Monitor</h3>
+            <p class="text-gray-400 text-sm mt-1">Automated local server monitoring for a client, reducing downtime by 30% through Python automation.</p>
+        </div>
+
+        <div class="md:col-span-1 bento-card bg-white text-black border-none flex flex-col justify-center items-center hover:bg-blue-50">
+            <h2 class="font-bold uppercase text-xs tracking-widest mb-4">Let's Talk</h2>
+            <a href="mailto:your-email@example.com" class="font-black text-xl underline">EMAIL ME</a>
+            <a href="https://linkedin.com" target="_blank" class="mt-4 text-sm font-bold flex items-center">
+                LinkedIn <span>→</span>
+            </a>
+        </div>
+
+    </div>
+
+    <footer class="mt-12 text-center text-gray-600 text-xs">
+        &copy; 2026 Joseph. Built with GitHub Copilot & NOUN Excellence.
     </footer>
 
 </body>
